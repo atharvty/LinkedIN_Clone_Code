@@ -1,0 +1,55 @@
+.feed{
+    flex: 0.6;
+    margin:  0 20px;
+
+}
+
+.feed__inputContainer{
+    /* remove the below code after once checking timestamp ->1:42:34 */
+    width: 600px; 
+    
+    background-color:black;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+
+
+}
+
+.feed__input{
+    border: 2px solid rgb(70, 70, 70);
+    border-radius: 30px;
+    display: flex;
+    padding: 10px;
+    color: grey;
+    padding-left: 15px;
+
+}
+
+.feed__input >form{
+    display: flex;
+    width: 100%;
+    
+
+
+}
+
+.feed__input >form > input{
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    background-color: black;
+    font-weight: 600;
+    color: white;
+}
+
+.feed__input >form > button{
+    display: none;
+}
+.feed__inputOptions{
+    display: flex;
+    justify-content: space-evenly;
+}
